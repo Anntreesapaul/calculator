@@ -1,4 +1,6 @@
-
+environment:
+    access_token:
+      secure: 1pvwy9qc9vb3lwlfcj9d
 
 on_success:
   - git remote add heroku https://heroku:1pvwy9qc9vb3lwlfcj9d@git.heroku.com/agile-atoll-85284.git
